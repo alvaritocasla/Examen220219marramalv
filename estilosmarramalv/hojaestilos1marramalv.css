@@ -34,6 +34,17 @@
   min-height: 15vh;
   grid-column: 1/4;
 }
+@media (max-width: 630px) {
+  .contenedormarramalv main {
+    grid-column: 1/4;
+  }
+  .contenedormarramalv .aside1marramalv {
+    grid-column: 1/4;
+  }
+  .contenedormarramalv .aside2marramalv {
+    grid-column: 1/4;
+  }
+}
 .contenedormarramalv .imagen1marramalv {
   /*object-fit: scale-down;*/
   width: 100%;

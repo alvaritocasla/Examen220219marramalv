@@ -39,6 +39,17 @@
         min-height: 15vh;
         grid-column: 1/4;
     }
+    @media (max-width: 630px){
+        main{
+            grid-column: 1/4;
+        }
+        .aside1marramalv{
+            grid-column: 1/4;
+        }
+        .aside2marramalv{
+            grid-column: 1/4;
+        }
+    }
     .imagen1marramalv{
         @include mixinimg3105marramalv();
     }
