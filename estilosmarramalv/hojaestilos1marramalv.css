@@ -16,5 +16,11 @@
   min-height: 60vh;
   grid-column: 1/2;
 }
+.contenedormarramalv .aside1marramalv {
+  border: 2px solid black;
+  background-color: purple;
+  min-height: 60vh;
+  grid-column: 2/3;
+}
 
 /*# sourceMappingURL=hojaestilos1marramalv.css.map */
