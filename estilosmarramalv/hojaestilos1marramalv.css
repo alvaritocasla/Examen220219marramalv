@@ -9,22 +9,26 @@
   grid-column: 1/4;
   min-height: 25vh;
   background-color: lightgreen;
-  border: 2px solid black;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
 }
 .contenedormarramalv main {
-  border: 2px solid black;
   background-color: lightgoldenrodyellow;
   min-height: 60vh;
   grid-column: 1/2;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
 }
 .contenedormarramalv .aside1marramalv {
-  border: 2px solid black;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
   background-color: purple;
   min-height: 60vh;
   grid-column: 2/3;
 }
 .contenedormarramalv .aside2marramalv {
-  border: 2px solid black;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
   background-color: yellow;
   min-height: 60vh;
   grid-column: 3/4;
@@ -33,6 +37,8 @@
   background-color: blue;
   min-height: 15vh;
   grid-column: 1/4;
+  border: 2px solid greenyellow;
+  box-sizing: border-box;
 }
 @media (max-width: 630px) {
   .contenedormarramalv main {

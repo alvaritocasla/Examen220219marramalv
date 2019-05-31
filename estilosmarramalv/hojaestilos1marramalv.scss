@@ -4,6 +4,10 @@
     height: 100%;
     border-radius: 3px solid black;
 }
+@mixin bordersgeneralesmarramalv() {
+    border: 2px solid greenyellow;
+    box-sizing: border-box;
+}
 .contenedormarramalv{
     display:grid;
     grid-template-columns: 60vw 25vw 15vw;
@@ -14,22 +18,22 @@
         grid-column: 1 / 4;
         min-height: 25vh;
         background-color: lightgreen;
-        border: 2px solid black;
+        @include bordersgeneralesmarramalv();
     }
     main{
-        border: 2px solid black;
         background-color: lightgoldenrodyellow;
         min-height: 60vh;
         grid-column: 1 / 2;
+        @include bordersgeneralesmarramalv();
     }
     .aside1marramalv{
-        border: 2px solid black;
+        @include bordersgeneralesmarramalv();
         background-color: purple;
         min-height: 60vh;
         grid-column: 2 / 3;
     }
     .aside2marramalv{
-        border: 2px solid black;
+        @include bordersgeneralesmarramalv();
         background-color: yellow;
         min-height: 60vh;
         grid-column: 3 / 4;
@@ -38,6 +42,7 @@
         background-color: blue;
         min-height: 15vh;
         grid-column: 1/4;
+        @include bordersgeneralesmarramalv();
     }
     @media (max-width: 630px){
         main{
