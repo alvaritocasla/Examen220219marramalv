@@ -2,5 +2,11 @@
     display:grid;
     grid-template-columns: 60vw 25vw 15vw;
     width: 90%;
-
+    margin: 0 auto;
+    header{
+        grid-column: 1 / 4;
+        min-height: 25vh;
+        background-color: lightgreen;
+        border: 2px solid black;
+    }
 }
